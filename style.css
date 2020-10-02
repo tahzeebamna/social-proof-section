@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    
+}
+body{
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:hsl(300, 24%, 96%);
+    width: 100%;
+}
+.content{
+    width: 40%;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    color: hsl(300, 43%, 22%);
+    
+}
+.content>p{
+    color: grey;
+    width: 75%;
+    line-height: 24px;
+    line-break: auto;
+}
+.rate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px 20px 20px 30px;
+    width: 100%;
+    font-size: 12px;
+}
+.rateIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-right: 20px;
+}
+.rateIcon img{
+    margin-right: 5px;
+
+}
+.rate1 .rateIcon{
+    margin-left: -35px;
+}
+.rate3 .rateIcon{
+    margin-left: -35px;
+}
+.rate2{
+    margin-left: 35px;
+}
+.rate3{
+    margin-left: 70px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: hsl(300, 43%, 22%);
+    border: none;
+    border-radius: 10px;
+    height: 250px;
+    width: 375px;
+    padding: 30px;
+    margin: 20px;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+.card-header img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.content1{
+    margin-left: 30px;
+}
+.content1 h4{
+    color: hsl(300, 24%, 96%);
+    opacity: 1;
+
+}
+.content1 h5{
+    color: hsl(333, 80%, 67%);
+    opacity: 1;
+    font-size: 14px;
+}
+.card p{
+    width: 100%;
+    margin-top: 30px;
+    color:  hsl(300, 24%, 96%);
+    font-size: 13px;
+    line-height: 25px;
+    opacity: 1;
+}
+.card2{
+    margin-top: 40px;
+}
+.card3{
+    margin-top: 70px;
+}
+@media(max-width:1200px){
+    .container1{
+        flex-direction: column;
+    }
+    .content{
+        width: 100%;
+    }
+    .content p{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .content h1{
+        width: 100%;
+        
+    }
+    .rate2{
+        margin-left: 0px;
+    }
+    .rate3{
+        margin-left: 0px;
+    }
+    .container2{
+        flex-direction: column;
+    }
+    .card2{
+        margin-top: 20px;
+    }
+    .card3{
+        margin-top: 20px;
+    }
+}
+@media (max-width: 552px){
+    .container1,
+    .container2{
+        padding: 60px 30px;
+    }
+    .container2{
+        margin-top: -80px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    .rate{
+        flex-direction: column;
+    }
+   
+    h1{
+        font-size: 32px;
+    }
+}
